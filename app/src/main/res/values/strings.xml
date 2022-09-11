@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyTaskApp</string>
+    <string name="face_recognition">Face Recognition</string>
+    <string name="finger_print">Finger Print</string>
+    <string name="authenticate_using">Authenticate Using:</string>
+    <string name="error_msg_no_biometric_hardware">No Biometric Hardware</string>
+    <string name="error_msg_biometric_hw_unavailable">Biometric hw Unavailable</string>
+    <string name="error_msg_biometric_not_setup">Biometric Not Setup</string>
+    <string name="auth_title">Authentication Required!</string>
+    <string name="auth_subtitle">Important authentication</string>
+    <string name="auth_description">Please authenticate to be able to view your account information</string>
+    <string name="error_msg_auth_error">Authentication failed</string>
+    <string name="error_msg_auth_failed">Failed to Autheticate</string>
+    <string name="use_account_password">Use account password</string>
+    <string name="search">Search</string>
+    <string name="submit">Submit</string>
+</resources>
