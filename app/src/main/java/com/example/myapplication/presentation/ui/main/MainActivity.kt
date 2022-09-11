@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.btnFace.setOnClickListener { gotoPixa() }
     }
 
     override fun onStart() {
@@ -87,7 +86,7 @@ class MainActivity : AppCompatActivity() {
                 ) {
                     super.onAuthenticationSucceeded(result)
                     //binding.mainLayout.visibility = View.VISIBLE
-                    Toast.makeText(applicationContext, "auth worked properly!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext, "Authenticated Successfully!", Toast.LENGTH_SHORT).show()
                     gotoPixa()
                 }
                 @SuppressLint("StringFormatInvalid")
@@ -100,7 +99,6 @@ class MainActivity : AppCompatActivity() {
                         getString(R.string.error_msg_auth_error, errString),
                         Toast.LENGTH_SHORT
                     ).show()
-                    gotoPixa()
                 }
                 override fun onAuthenticationFailed() {
                     super.onAuthenticationFailed()

@@ -2,7 +2,7 @@
     <string name="app_name">MyTaskApp</string>
     <string name="face_recognition">Face Recognition</string>
     <string name="finger_print">Finger Print</string>
-    <string name="authenticate_using">Authenticate Using:</string>
+    <string name="authenticate_using">Hello World!</string>
     <string name="error_msg_no_biometric_hardware">No Biometric Hardware</string>
     <string name="error_msg_biometric_hw_unavailable">Biometric hw Unavailable</string>
     <string name="error_msg_biometric_not_setup">Biometric Not Setup</string>

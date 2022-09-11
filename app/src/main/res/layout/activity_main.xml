@@ -16,26 +16,6 @@
         android:id="@+id/main_layout"
         tools:context=".presentation.ui.main.MainActivity">
 
-        <Button
-            android:id="@+id/btnFinger"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="@string/finger_print"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2" />
-
-        <Button
-            android:id="@+id/btnFace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/face_recognition"
-            app:layout_constraintEnd_toEndOf="@+id/btnFinger"
-            app:layout_constraintStart_toStartOf="@+id/btnFinger"
-            app:layout_constraintTop_toBottomOf="@+id/btnFinger" />
-
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
