@@ -12,7 +12,6 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityMainBinding
-import com.example.myapplication.presentation.ui.pixabay.PixabayActivity
 import com.example.myapplication.presentation.ui.show.ShowActivity
 import java.util.concurrent.Executor
 

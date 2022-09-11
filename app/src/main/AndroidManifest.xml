@@ -19,9 +19,6 @@
             android:name=".presentation.ui.show.ShowActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.ui.pixabay.PixabayActivity"
-            android:exported="true" />
-        <activity
             android:name=".presentation.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>

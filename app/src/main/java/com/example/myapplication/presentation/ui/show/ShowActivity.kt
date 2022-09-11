@@ -45,7 +45,7 @@ class ShowActivity : AppCompatActivity() {
                     showToast(it.message!!)
                 }
 
-                else -> {showToast("scam ho gaya!")}
+                else -> {showToast("Unexpected Error!")}
             }
         }
     }
